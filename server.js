@@ -3,7 +3,7 @@ const morgan = require("morgan")
 const mongoose = require("mongoose");
 
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8080
 
 const app = express();
 app.use(morgan("combined"))
