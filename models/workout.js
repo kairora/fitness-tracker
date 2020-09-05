@@ -45,12 +45,12 @@ const workoutSchema = new Schema({
                 type: Number,
                 required: "Enter the number of sets that you completed!"
             }
-        },
-    ],
+        }
+    ]
 
-  });
+});
   
-  const Workout = mongoose.model("Workout", WorkoutSchema);
-  
-  module.exports = Workout;
+const Workout = mongoose.model("Workout", WorkoutSchema);
+
+module.exports = Workout;
   
