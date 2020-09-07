@@ -11,4 +11,15 @@ module.exports = function(app) {
             res.status(400).json(err);
         });
     });
+
+    // creates a workout
+    app.post("/api/workouts", ({ body }, res) => {
+        db.Workout.create(body)
+        .then(newWorkout => {
+            res.json(newWorkout);
+        })
+        .catch(err => {
+            res.status(400).json(err);
+        });
+    });
 }
