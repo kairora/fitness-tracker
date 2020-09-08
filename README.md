@@ -2,7 +2,7 @@
 # Fitness Tracker
 ![ISC license](https://img.shields.io/badge/License-ISC-blue.svg) 
 
-## Description && Deployement
+## Description & Deployment
 This app allows a user to view, create, and track daily workouts. You can log your exercises including the name, type, duration, weight, reps, and sets and watch your stat data grow into  beautifully designed graphical charts.
 
 You can try the app at [the Fitness Tracker deployed.](https://sleepy-atoll-97885.herokuapp.com/)
@@ -26,7 +26,7 @@ You can try the app at [the Fitness Tracker deployed.](https://sleepy-atoll-9788
 ## Usage
 To run, the user can simply use the command ``` npm start ``` and open their localhost at port 8080.  Once running the app, the user can then log their workout data by clicking "New Workout".  They will be shown a dropdown list for resistance and cardio workouts. Choose one and input your workout data, adding as exercises as needed.
 
-![Image of the resistance data input form](./public/assets/images/resistance.PNG).
+![Image of the resistance data input form](./public/assets/images/resistance.PNG)
 
 When done entering data, the user can then click "Complete" to see their last workout data, or the link to the Dashboard at the top left of the screen to see their data graphed.
 
