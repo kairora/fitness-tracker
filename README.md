@@ -5,9 +5,9 @@
 ## Description && Deployement
 This app allows a user to view, create, and track daily workouts. You can log your exercises including the name, type, duration, weight, reps, and sets and watch your stat data grow into  beautifully designed graphical charts.
 
-You can try the app at [the Fitness Tracker deployed.](./public/assets/images/last-workout.PNG)
+You can try the app at [the Fitness Tracker deployed.](https://sleepy-atoll-97885.herokuapp.com/)
 
-![Image of the last workout stats](https://sleepy-atoll-97885.herokuapp.com/)
+![Image of the last workout stats](./public/assets/images/last-workout.PNG)
 
 ---
 
