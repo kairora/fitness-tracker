@@ -7,7 +7,7 @@ This app allows a user to view, create, and track daily workouts. You can log yo
 
 You can try the app at [the Fitness Tracker deployed.](./public/assets/images/last-workout.PNG)
 
-![Image of the last workout stats](./public/assets/images/last-workout.PNG)
+![Image of the last workout stats](https://sleepy-atoll-97885.herokuapp.com/)
 
 ---
 
