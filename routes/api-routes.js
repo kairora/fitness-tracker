@@ -5,7 +5,6 @@ module.exports = function(app) {
     // gets the last workout
     app.get("/api/workouts", (req, res) => {
         db.Workout.find({})
-        .sort({_id:-1}).limit(1)
         .then(dbWorkouts => {
             res.json(dbWorkouts);
         })
